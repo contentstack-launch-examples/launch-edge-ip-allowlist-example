@@ -37,7 +37,7 @@ export default async function Home() {
 
           {/* Main Title */}
           <h1 className="text-4xl md:text-5xl font-bold text-purple-900 mb-8">
-            IP Whitelist & Blacklist Edge Function Example
+            IP Whitelist Edge Function Example
           </h1>
 
           {/* Description */}
