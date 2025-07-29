@@ -1,10 +1,10 @@
-# Edge IP Whitelist Example
+# Edge IP Allowlist Example
 
 A Next.js application demonstrating IP-based access control using Contentstack Edge Functions. This project shows how to implement IP whitelisting to restrict access to your application based on client IP addresses.
 
 ## 🚀 Features
 
-- **IP Whitelist Protection**: Restrict access to specific IP addresses only
+- **IP Allowlist Protection**: Restrict access to specific IP addresses only
 - **Edge Function Integration**: Uses Contentstack Edge Functions for real-time IP validation
 - **Modern UI**: Beautiful, responsive interface built with Next.js and Tailwind CSS
 - **Real-time Access Control**: IP validation happens at the edge for optimal performance
@@ -120,8 +120,8 @@ npm start
 
 ### Test Different IP Scenarios
 
-1. **Whitelisted IP**: Should see the success page
-2. **Non-whitelisted IP**: Should see "Forbidden" message
+1. **Allowed IP**: Should see the success page
+2. **Restricted IP**: Should see "Forbidden" message
 3. **Local Development**: Should work with `127.0.0.1`
 
 ### Manual Testing
